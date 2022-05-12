@@ -1,0 +1,9 @@
+.slider_image{
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
+}

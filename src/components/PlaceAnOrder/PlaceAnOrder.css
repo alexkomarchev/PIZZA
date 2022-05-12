@@ -1,0 +1,76 @@
+.PlaceAnOrder {
+  font-size: 17px;
+  font-weight: bold;
+  position: fixed;
+  width: 450px;
+  height: 100%;
+  height: 400px;
+  padding-top: 20px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.cardBasket {
+  width: 98%;
+  height: 750px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.order_sum {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 0px;
+}
+.cardBasket::-webkit-scrollbar-track {
+}
+.cardBasket::-webkit-scrollbar {
+  width: 8px;
+}
+hr {
+  border-top: 1px solid #ccc;
+}
+.cardBasket::-webkit-scrollbar-track {
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.cardBasket::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(57, 57, 57, 0.3);
+
+  opacity: 0.3;
+}
+/* .cardBasket::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+}
+.cardBasket::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #666;
+  border-radius: 5px;
+}
+.cardBasket::-webkit-scrollbar-corner {
+  background-color: #999;
+}
+.cardBasket::-webkit-resizer {
+  background-color: #666;
+} */
+.InfoBasket_place_on_order {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-right: 15px;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.InfoBasket_place_on_order_coin {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-right: 15px;
+  margin-left: 16px;
+  font-size: 15px;
+}

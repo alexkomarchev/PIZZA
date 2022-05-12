@@ -1,0 +1,10 @@
+.slider_image{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    min-height: 150px;
+    max-height: 180px;
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat;
+}

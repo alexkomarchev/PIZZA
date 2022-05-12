@@ -1,0 +1,10 @@
+.but_add {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  background-color: #333333;
+}
+.but_add:hover {
+  cursor: pointer;
+}

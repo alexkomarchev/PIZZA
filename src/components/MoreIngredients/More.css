@@ -1,0 +1,35 @@
+.MORE_wrapper {
+  height: 120px;
+  width: 130px;
+  margin: 0;
+  display: inline-block;
+  border-radius: 20px 20px 10px 10px;
+}
+.MORE_wrapper_Off {
+
+  height: 120px;
+  width: 130px;
+  margin: 0;
+  display: inline-block;
+  border-radius: 20px 20px 10px 10px;
+}
+.more_title {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+  font-weight: bold;
+}
+.more_img {
+  display: flex;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 80px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.more_price {
+  font-weight: bold;
+  margin: auto;
+}

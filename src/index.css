@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html[data-theme ='dark']{
+  --background-color:#000;
+}
+html[data-theme ='ligth']{
+  --background-color:red;
+}

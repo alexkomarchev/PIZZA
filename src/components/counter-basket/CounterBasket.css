@@ -1,0 +1,12 @@
+.counter_basket-wrapper{
+    height: 30px;
+    width: 67px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f7;
+    border-radius: 20px;
+
+}
+.button_add_minus{
+    margin: auto;
+}

@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+.slick-dots,
+.slick-next,
+.slick-prev {
+  position: absolute;
+  display: block;
+  padding: 0;
+}
+
+.slick-next,
+.slick-prev {
+  line-height: 0;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: orange;
+}

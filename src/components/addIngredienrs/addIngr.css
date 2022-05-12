@@ -1,0 +1,26 @@
+.More{
+    margin-top: 10px;
+    overflow-y: auto;
+    height: 250px;
+    width: 350px;
+}
+.More::-webkit-scrollbar {
+  width: 8px;
+}
+hr{
+  border-top: 1px solid #ccc;
+}
+.More::-webkit-scrollbar-track {
+  
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+
+}
+.More::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(57, 57, 57, 0.3);
+  opacity: 0.5;
+  opacity: .3;
+  
+}

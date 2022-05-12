@@ -1,0 +1,13 @@
+.slider_global {
+  margin-top: 40px;
+  position: relative;
+  margin-left: 20px;
+}
+.img_slider_global {
+  width: 330px;
+  border-radius: 25px;
+  height: 400px;
+  min-height: 150px;
+  max-height: 450px;
+}
+

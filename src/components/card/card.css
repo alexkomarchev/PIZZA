@@ -1,0 +1,135 @@
+.card {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 12px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 25px;
+  height: 360px;
+  width: 218px;
+  display: inline-block;
+  background-color: var(--background-color);
+  /* border: 1px solid #261b1b; */
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+.card-price {
+  margin:auto;
+  margin-top: 15px;
+  font-size: 0.75em;
+  font-weight:bolder;   
+}
+.card-wallet {
+  font-size: 15px;
+  text-align: left;
+}
+.card_img {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  height: 150px;
+  min-height: 150px;
+  max-height: 150px;
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.add_to_card {
+  display: inline-block;
+  margin: 5px;
+  margin-right: 20px;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card_image {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+.card_img_modal {
+  width: 60%;
+
+  position: relative;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.modal_image_wrapper {
+  width: 400px;
+  height: 400px;
+}
+.no_image {
+  align-items: center;
+  height: 400px;
+  width: 430px;
+  text-align: left;
+}
+.MODAL {
+  height: 775px;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+  
+}
+.MODAL_CARD {
+  height: 775px;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin: auto;
+}
+.modal_title {
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+.modal_price{
+  text-align: center;
+  font-weight: 150;
+  font-size: 25px;
+  vertical-align: bottom;
+}
+.modal_info{
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: gray;
+  font-weight: normal;
+} 
+
+.add_to_card_modal{
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  vertical-align: bottom;
+}
+.more_title1{
+  text-align: left;
+  font-size: 15px;
+  margin: 20px;
+}
+.AddToBasketAndPrice{
+  display: flex;
+  justify-content: space-between;
+}
+.card-info{
+  height:90px;
+  width: 100%;
+  font-size: 15px;
+  text-align: left;
+  width: 100%;
+}
+

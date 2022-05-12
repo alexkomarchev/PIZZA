@@ -1,0 +1,63 @@
+.card-title_basket {
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+  height: 100%;
+  text-align: left;
+  width: 350px;
+}
+.card-price2 {
+  margin: 10px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.PRICE {
+  font-size: 15px;
+  margin-left: 15px;
+}
+.card_basket {
+  background-color: white;
+  height: 150px;
+  width: 100%;
+  width: 430px;
+  margin: 10px;
+  margin-right: 14px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.img_title {
+  display: flex;
+  justify-content: flex-start;
+}
+.card_img_basket {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 150px;
+  max-height: 90px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Linia {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: #f3f3f7;
+}
+.counter {
+  font-size: 15px;
+  margin: auto;
+  margin-left: 3px;
+  
+}
+.card-wallet2 {
+  font-weight: normal;
+}
+.count {
+  margin-right: 24px;
+}
